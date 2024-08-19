@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class ogro {
+public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+
+	int e,d,s,m;
+
+	e = ler.nextInt();
+	d = ler.nextInt();
+
+	if (e>d){
+		s = e+d;
+		System.out.println(s);
+		
+	} else {
+		m = 2*(d-e);
+		System.out.println(m);
+	}
+	ler.close();
+	}
+}
