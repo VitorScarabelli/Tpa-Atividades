@@ -1,0 +1,52 @@
+body{
+    margin-top: -8px !important;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+.container-fluid{
+    background-color: #520000;
+}
+
+.nav-item a{
+    color: #ffffff;
+}
+
+.nav-item a:hover{
+    color: rgba(163, 156, 156, 0.6);
+}
+
+.nav-item :active a{
+    color: #ffffff;
+}
+
+.espaco{
+    color: #fff;
+}
+.dropdown-menu li a{
+        color: #520000;
+}
+
+.container-fluid.propaganda{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.quemSomostxt{
+    margin-left: 35%;
+    width: 30%;
+}
+
+.quemsomosh1{
+    text-align: center;
+}
+
+.pqContratartxt{
+    margin-left: 35%;
+    width: 30%;
+}
